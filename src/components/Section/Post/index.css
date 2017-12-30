@@ -1,0 +1,118 @@
+.Post {
+  position: relative;
+  width: 100%;
+}
+
+.Post .imgBox {
+  position: relative;
+}
+
+.Post .imgBox .img {
+  width: 100%;
+}
+
+.Post .imgBox span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 12px;
+  background-color: rgba(0,0,0,.6);
+  padding: 1px;
+}
+
+.Post .imgBox span:before{
+  content: "\F1DB";
+  font-family: fontAwesome;
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.Post .infoBox .table-cell {
+  vertical-align: middle;
+}
+
+.Post .infoBox .table-cell.wF {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.Post .infoBox__img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.Post .infoBox__title {
+  color: #555;
+  margin: 0;
+  letter-spacing: -.3px;
+  font-size: 14px;
+}
+
+.Post .infoBox__time {
+  font-size: 12px;
+  color: #9e9e9e;
+  letter-spacing: -.5px;
+}
+
+.Post .infoBox__moreIcon {
+  color: #9e9e9e;
+  cursor: pointer;
+  padding: 10px; padding-right: 0;
+}
+
+.Post .infoBox__moreIcon:hover {
+  color: #555;
+}
+
+.Post  .content__text {
+  color: #9e9e9e;
+  font-weight: 200;
+}
+
+.Post__footer {
+  color: #607d8b;
+}
+
+.Post__footer .fa {
+  text-align: center;
+  width: 20px; height: 20px;
+  vertical-align: middle;
+}
+
+.Post__footer .table-cell:nth-child(1) {
+  text-align: left;
+}
+
+.Post__footer .table-cell:nth-child(1) a {
+  border-radius: 50%;
+  background-color: #ff7043;
+  color: #fff;
+}
+
+.Post__footer .table-cell:nth-child(2) {
+  text-align: center;
+}
+
+.Post__footer .table-cell:nth-child(2) a {
+  border-radius: 50%;
+  background-color: #c3ccd3;
+  color: #fff;
+  margin: 5px;
+}
+.Post__footer .table-cell:nth-child(3) {
+  text-align: right;
+}
+
+.Post__footer .table-cell:nth-child(3) a {
+  color: #c3ccd3;
+  font-size: 16px;
+}
+.Post__footer .table-cell:nth-child(3) span {
+  color: #607d8b;
+}
+.Post__footer a {
+  display: inline-block;
+  padding: 5px;
+}
+

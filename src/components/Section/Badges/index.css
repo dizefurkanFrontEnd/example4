@@ -1,0 +1,35 @@
+.Badges {
+  position: relative;
+  width: 100%;
+}
+
+.Badges .box .list {
+  list-style: none;
+  padding: 0;
+}
+
+.Badges .box .listItem {
+  float: left;
+  background-color: #ccc;
+  margin: 5px;
+  padding: 4px 8px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.Badges .box .listItem:hover {
+  border-radius: 10px;
+}
+.Badges .box .listItem .fa {
+  color: #fff;
+}
+
+.Badges .box .listItem.c1 { background-color: #6cc1ff; }
+.Badges .box .listItem.c2 { background-color: #f7be5b; }
+.Badges .box .listItem.c3 { background-color: #c490fe; }
+.Badges .box .listItem.c4 { background-color: #6ceea6; }
+.Badges .box .listItem.c5 { background-color: #ff6b6b; }
+.Badges .box .listItem.c6 { background-color: #4bcaff; }
+.Badges .box .listItem.c7 { background-color: #b8af7a; }
+.Badges .box .listItem.c8 { background-color: #62a4b2; }
+.Badges .box .listItem.c9 { background-color: #475ae5; }

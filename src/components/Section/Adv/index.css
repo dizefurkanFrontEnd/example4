@@ -1,0 +1,38 @@
+.SocialSharing {
+  position: relative;
+  width: 100%;
+}
+
+.SocialSharing .box .list {
+  list-style: none;
+  padding: 0;
+}
+
+.SocialSharing .box .listItem {
+  float: left;
+  background-color: #ccc;
+  margin: 5px;
+  padding: 4px 8px;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px; height: 40px;
+}
+
+.SocialSharing .box .listItem:hover {
+  transform: translateY(2px);
+}
+
+.SocialSharing .box .listItem a {
+  text-align: center;
+  padding-top: 6px;
+}
+.SocialSharing .box .listItem .fa {
+  color: #fff;
+}
+
+.SocialSharing .box .listItem.c1 { background-color: #5aa8df; }
+.SocialSharing .box .listItem.c2 { background-color: #2b4763; }
+.SocialSharing .box .listItem.c3 { background-color: #39559b; }
+.SocialSharing .box .listItem.c4 { background-color: #e5281b; }
+.SocialSharing .box .listItem.c5 { background-color: #df0400; }

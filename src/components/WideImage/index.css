@@ -1,0 +1,7 @@
+.WideImage {
+  position: relative;
+}
+
+.WideImage .img-responsive {
+  width: 100%;
+}

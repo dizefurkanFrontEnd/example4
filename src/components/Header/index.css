@@ -1,0 +1,108 @@
+.Header a, a:hover {
+  text-decoration: none;
+}
+
+.Header {
+  position: relative;
+  background-color: #232f42;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.Header .logo {
+  float: left;
+  background-color: #ff7043;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.Header .list {
+  display: block;
+  float: left;
+  margin-right: 40px;
+}
+
+.Header .list ul {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Header .list ul li {
+  display: block;
+  float: left;
+}
+
+.Header .list .listItem {
+  display: block;
+  float: left;
+  padding: 10px;
+  color: #6b7991;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.Header .list .listItem:hover {
+  color: #fff;
+}
+
+.Header form {
+  position: relative;
+  float: left;
+  color: #ccc;
+  margin-right: 40px;
+}
+
+.Header form input {
+  border: 0; outline: 0;
+  padding: 10px;
+  padding-right: 20px;
+  background-color: rgba(255,255,255,.1);
+  transition: .5s;
+}
+
+.Header form input:focus {
+  color: #fff;
+  background-color: rgba(255,255,255,.2);
+}
+
+.Header form .fa-search {
+  position: absolute;
+  right: 5px;
+  top: 50%; transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.Header .addpost {
+  float: left;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #ff7043;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.Header .authArea {
+  float: right;
+}
+
+.Header .authArea__item {
+  float: left;
+  padding: 10px;
+  color: #637289;
+}
+
+.Header .authArea__item:hover {
+  color: #fff;
+}
+
+.Header .picArea {
+  float: right;
+}
+
+.Header .picArea .img-responsive {
+  width: 40px;
+}

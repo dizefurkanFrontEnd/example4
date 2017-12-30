@@ -1,0 +1,28 @@
+.Filter a, a:hover {
+  text-decoration: none;
+}
+
+.Filter {
+  position: relative;
+  background-color: #f0f5f7;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.Filter .link {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ccc;
+  font-weight: 500;
+}
+
+.Filter .link:hover {
+  color: #ff7043;
+}

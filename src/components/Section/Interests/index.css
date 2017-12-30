@@ -1,0 +1,19 @@
+.Interests {
+  position: relative;
+  width: 100%;
+}
+
+.Interests .box .list {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.Interests .box .listItem,
+.Interests .box .listItem a{
+  color: #7e8e97;
+}
+
+.Interests .box .listItem:hover,
+.Interests .box .listItem a:hover {
+  color: #ff7043;
+}

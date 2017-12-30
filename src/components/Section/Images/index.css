@@ -1,0 +1,14 @@
+.Images {
+  position: relative;
+  width: 100%;
+}
+
+.ImagesBox {
+  padding: 0 2px !important;
+  margin: 2px 0;
+}
+
+.ImagesBox__img {
+  cursor: pointer;
+}
+

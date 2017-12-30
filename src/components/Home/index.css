@@ -1,0 +1,22 @@
+.table {
+  display: table;
+  margin: 20px 0;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.hrfull {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.no-margin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

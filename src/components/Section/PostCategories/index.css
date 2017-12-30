@@ -1,0 +1,28 @@
+.PostCategories {
+  position: relative;
+  width: 100%;
+  
+}
+
+.PostCategories .table-cell {
+  text-align: center;
+}
+
+.PostCategories .table-cell span {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  color: #ccc;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.PostCategories .table-cell .fa {
+  width: 20px; height: 20px;
+}
+
+.PostCategories .table-cell span:hover {
+  background-color: #ff7043;
+  color: #fff;
+  border-color: #ff7043;
+}
