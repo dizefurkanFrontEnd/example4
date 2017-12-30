@@ -1,7 +1,14 @@
 .WideImage {
   position: relative;
+  display: block;
 }
 
 .WideImage .img-responsive {
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .WideImage {
+    display: none;
+  }
 }

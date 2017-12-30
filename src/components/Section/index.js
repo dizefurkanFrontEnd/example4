@@ -22,7 +22,7 @@ class Section extends Component {
       <div className="Section">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-sm-6 col-lg-3 col-md-4">
+            <div className="col-xs-12 col-sm-6 col-lg-3 col-md-4 leftSide">
               <div className="card">
                 <PostCategories />
                 <Interests />
@@ -36,8 +36,14 @@ class Section extends Component {
               <div className="card">
                 <Post />
               </div>
+              <div className="card">
+                <Post />
+              </div>
+              <div className="card">
+                <Post />
+              </div>
             </div>
-            <div className="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+            <div className="col-xs-12 col-sm-6 col-lg-3 col-md-6 rightSide">
               <div className="card">
                 <Adv />
                 <PopularPosts />

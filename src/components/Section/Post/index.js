@@ -40,7 +40,7 @@ class Post extends Component {
                 <a href="/">
                   <i className="fa fa-share-alt"></i>
                 </a>
-                <span>528k</span>
+                <span className="Post__footerIconText">528k</span>
               </div>
               <div className="table-cell">
                 <a href="/">
@@ -49,12 +49,12 @@ class Post extends Component {
                 <a href="/">
                   <i className="fa fa-caret-down"></i>
                 </a>
-                <span>483</span>
+                <span className="Post__footerIconText">483</span>
               </div>
               <div className="table-cell">
                 <a href="/">
                   <i className="fa fa-comments-o"></i>
-                  <span>14</span>
+                  <span className="Post__footerIconText">14</span>
                 </a>
               </div>
             </div>

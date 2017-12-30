@@ -106,3 +106,35 @@
 .Header .picArea .img-responsive {
   width: 40px;
 }
+
+
+.HeaderBox {
+  position: relative; display: inline-block; vertical-align: middle;
+}
+
+@media (max-width: 992px) {
+  .HeaderBox {
+    width: 100%;
+  }
+
+  .Header .logo {
+    width: 100%;
+  }
+
+  .Header .list {
+    margin-right: 0;
+  }
+
+  .Header form {
+    margin-right: 0;
+    margin: 10px 0;
+  }
+  .Header form,
+  .Header form input {
+    width: 100%;
+  }
+
+  .hideMobile {
+    display: none;
+  }
+}
