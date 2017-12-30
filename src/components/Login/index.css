@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.Login .m-rLink {
+  margin-right: 5px;
+}
+
 .Login .d-B {
   display: block;
   text-align: center;
@@ -97,3 +101,12 @@
   color: #fff;
 }
 
+@media (max-width: 400px) {
+  .Login .signInSocial .socialLink .fa {
+    width: 50px;
+  }
+  .LoginForm input[type="input"], 
+  .LoginForm input[type="password"] {
+    padding: 10px 20px;
+  }
+}

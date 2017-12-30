@@ -15,7 +15,7 @@ class Login extends Component {
                 </a>
               </div>
               <div className="tA-C itemMargin">
-                <span className="text d-IB">Log In to Open List or </span>
+                <span className="text d-IB m-rLink">Log In to Open List or </span>
                 <a href="/register" className="Login__link d-IB"> create an account</a>
               </div>
               <div className="tA-C signInSocial itemMargin">

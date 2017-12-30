@@ -24,7 +24,9 @@ class Header extends Component {
                   </ul>
                 </div>
                 <div className="Headertoggle">
-                  <i className="fa fa-bars"></i>
+                  <a href="/login">
+                    <i className="fa fa-bars"></i>
+                  </a>
                 </div>
               </div>
               <div className="HeaderBox fRight hideMobile clearfix">

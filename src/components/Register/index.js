@@ -15,7 +15,7 @@ class Register extends Component {
                 </a>
               </div>
               <div className="tA-C itemMargin">
-                <span className="text d-IB">Create a new account to Open list or</span>
+                <span className="text d-IB m-rLink">Create a new account to Open list or</span>
                 <a href="/login" className="Register__link d-IB">Sign in</a>
               </div>
               <form className="RegisterForm">
