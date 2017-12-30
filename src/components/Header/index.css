@@ -103,6 +103,11 @@
   float: right;
 }
 
+.Header .picArea a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .Header .picArea .img-responsive {
   width: 40px;
 }
@@ -110,6 +115,17 @@
 
 .HeaderBox {
   position: relative; display: inline-block; vertical-align: middle;
+}
+
+.HeaderBox.fLeft {
+  float: left;
+}
+.HeaderBox.fRight {
+  float: right;
+}
+
+.Headertoggle {
+  display: none;
 }
 
 @media (max-width: 992px) {
@@ -136,5 +152,20 @@
 
   .hideMobile {
     display: none;
+  }
+}
+
+@media (max-width: 568px) {
+  .Header .list {
+    display: none;
+  }
+
+  .Headertoggle {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
   }
 }

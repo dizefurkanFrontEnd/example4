@@ -11,7 +11,7 @@ class Header extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 clearfix">
-              <div className="HeaderBox clearfix">
+              <div className="HeaderBox fLeft clearfix">
                 <div className="logo">
                   <i className="fa fa-apple"></i>
                 </div>
@@ -23,8 +23,11 @@ class Header extends Component {
                     <li><a href="/" className="listItem">ALL ELEMENTS</a></li>
                   </ul>
                 </div>
+                <div className="Headertoggle">
+                  <i className="fa fa-bars"></i>
+                </div>
               </div>
-              <div className="HeaderBox hideMobile clearfix">
+              <div className="HeaderBox fRight hideMobile clearfix">
                 <form>
                   <input type="input" placeholder="Search" className="setHeight" />
                     <i className="fa fa-search"></i>
