@@ -91,6 +91,10 @@
   margin-left: 5px;
 }
 
+.Post__footer .table-cell {
+  vertical-align: middle;
+}
+
 .Post__footer .table-cell a {
   transition: .3s;
 }

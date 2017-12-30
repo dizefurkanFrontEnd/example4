@@ -7,6 +7,9 @@
   background-color: #232f42;
   font-family: 'Roboto', sans-serif;
   font-family: 'Hammersmith One', sans-serif;
+  animation-name: fade-in-header;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .Header .logo {
@@ -86,7 +89,7 @@
 }
 
 .Header .authArea {
-  float: right;
+  float: left;
 }
 
 .Header .authArea__item {
@@ -100,7 +103,8 @@
 }
 
 .Header .picArea {
-  float: right;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .Header .picArea a {
@@ -109,7 +113,8 @@
 }
 
 .Header .picArea .img-responsive {
-  width: 40px;
+  width: 35px;
+  border-radius: 50%;
 }
 
 
@@ -121,6 +126,7 @@
   float: left;
 }
 .HeaderBox.fRight {
+  display: table;
   float: right;
 }
 
@@ -133,29 +139,10 @@
     width: 100%;
   }
 
-  .Header .logo {
-    width: 100%;
-  }
-
-  .Header .list {
-    margin-right: 0;
-  }
-
-  .Header form {
-    margin-right: 0;
-    margin: 10px 0;
-  }
-  .Header form,
-  .Header form input {
-    width: 100%;
-  }
-
-  .hideMobile {
+  .HeaderBox.fRight {
     display: none;
   }
-}
 
-@media (max-width: 992px) {
   .Header .logo {
     width: unset;
   }
@@ -171,7 +158,14 @@
     color: #fff;
     padding: 10px 0;
   }
+
   .Headertoggle a {
     color: #fff;
   }
+}
+
+
+@keyframes fade-in-header {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0%); opacity: 1; }
 }

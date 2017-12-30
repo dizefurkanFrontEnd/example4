@@ -37,13 +37,13 @@ class Header extends Component {
                 <a href="/" className="addpost setHeight">
                   + ADD POST
                 </a>
-                <div className="picArea">
-                  <a href="/login"><img src={avatar} className="img-responsive" alt="img" /></a>
-                </div>
                 <div className="authArea clearfix">
                   <a href="/" className="authArea__item"><i className="fa fa-user-o"></i></a>
                   <a href="/" className="authArea__item"><i className="fa fa-comments-o"></i></a>
                   <a href="/" className="authArea__item"><i className="fa fa-bell"></i></a>
+                </div>
+                <div className="picArea">
+                  <a href="/login"><img src={avatar} className="img-responsive" alt="img" /></a>
                 </div>
               </div>
             </div>
