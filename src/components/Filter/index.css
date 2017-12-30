@@ -8,7 +8,7 @@
   /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Hammersmith One', sans-serif;
   text-align: center;
-  padding: 5px 0;
+  padding: 20px 0;
 }
 
 .Filter .link {
@@ -29,7 +29,4 @@
 
 
 @media (max-width: 992px) {
-  .Filter {
-    padding: 10px 0;
-  }
 }
