@@ -156,16 +156,19 @@
 }
 
 @media (max-width: 568px) {
+  .Header .logo {
+    width: unset;
+  }
+
   .Header .list {
     display: none;
   }
 
   .Headertoggle {
     display: block;
-    float: left;
-    width: 100%;
+    float: right;
     text-align: center;
     color: #fff;
-    margin: 20px 0;
+    padding: 10px 0;
   }
 }
