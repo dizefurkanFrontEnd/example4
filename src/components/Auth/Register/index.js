@@ -24,7 +24,7 @@ class Register extends Component {
                 <input type="password" placeholder="Password"/>
                 <div className="tA-C">
                   <input type="checkbox"/>
-                  <label htmlFor="checkbox" className="vaM">I Accept the </label>
+                  <label className="vaM">I Accept the </label>
                 </div>
                 <div className="tA-C">
                   <a href="" className="Register__link ta-C d-IB">Terms and Services</a>

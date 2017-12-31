@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home/';
-import Login from './components/Login/';
-import Register from './components/Register/';
+import Login from './components/Auth/Login/';
+import Register from './components/Auth/Register/';
 
 class App extends Component {
   render() {

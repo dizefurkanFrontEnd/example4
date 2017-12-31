@@ -36,7 +36,7 @@ class Login extends Component {
                 <input type="password" placeholder="Password"/>
                 <div className="tA-C">
                   <input type="checkbox"/>
-                  <label htmlFor="checkbox" className="vaM">Remember Me</label>
+                  <label className="vaM">Remember Me</label>
                 </div>
                 <div className="tA-C">
                   <a href="" className="Login__link ta-C d-IB">Forget password?</a>
