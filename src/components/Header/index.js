@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 // import { BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
 import './index.css';
 
+import FollowFeed from './PopupItems/FollowFeed/';
+import Messages from './PopupItems/Messages/';
+import Notifications from './PopupItems/Notifications/';
+
 import avatar from '../../media/avatar2.png';
 
 class Header extends Component {
@@ -38,9 +42,30 @@ class Header extends Component {
                   + ADD POST
                 </a>
                 <div className="authArea clearfix">
-                  <a href="/" className="authArea__item"><i className="fa fa-user-o"></i></a>
-                  <a href="/" className="authArea__item"><i className="fa fa-comments-o"></i></a>
-                  <a href="/" className="authArea__item"><i className="fa fa-bell"></i></a>
+                  <div className="authAreaItemBox">
+                    <a href="/" className="authArea__item">
+                      <i className="fa fa-user-o"></i>
+                    </a>
+                    <div className="headerItemMoreBox">
+                      <FollowFeed />
+                    </div>
+                  </div>
+                  <div className="authAreaItemBox">
+                    <a href="/" className="authArea__item">
+                      <i className="fa fa-comments-o"></i>
+                    </a>
+                    <div className="headerItemMoreBox">
+                      <Messages />
+                    </div>
+                  </div>
+                  <div className="authAreaItemBox">
+                    <a href="/" className="authArea__item">
+                      <i className="fa fa-bell"></i>
+                    </a>
+                    <div className="headerItemMoreBox">
+                      <Notifications />
+                    </div>
+                  </div>
                 </div>
                 <div className="picArea">
                   <a href="/login"><img src={avatar} className="img-responsive" alt="img" /></a>

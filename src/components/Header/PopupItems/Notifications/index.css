@@ -1,0 +1,85 @@
+.Notifications {
+  position: relative;
+  padding-top: 10px;
+}
+
+.NotificationsRow {
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+
+.NotificationsRow.unseen {
+  background-color: #f5f5f5;
+}
+
+.NotificationsRow.nopadding {
+  padding: 0;
+}
+
+.NotificationsRow.table {
+  margin: 0;
+}
+
+.NotificationsRow .title {
+  color: #607D8B;
+  margin: 0;
+}
+
+.NotificationsRow .icon {
+  position: absolute;
+  right: 10px; bottom: 6px;
+  color: #607d8b;
+}
+
+.NotificationsRow .icon .link {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.NotificationsRow .icon .fa {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.NotificationsRow .img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.NotificationsRow .table-cell {
+  vertical-align: top;
+}
+
+.NotificationsRow .table-cell .name {
+  display: inline-block;
+  color: #555;
+  margin-right: 5px;
+}
+
+.NotificationsRow .table-cell .small {
+  color: #607D8B;;
+  font-size: 12px;
+}
+
+.NotificationsRow .table-cell .eventLink {
+  display: inline-block;
+  color: #ff7144;
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+.NotificationsRow .table-cell .metaTime .small {
+  margin-right: 15px;
+  font-size: 10px;
+}
+
+.NotificationsRow .checkAll {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #ff7144;
+  text-transform: uppercase;
+}

@@ -1,0 +1,112 @@
+.Messages {
+  position: relative;
+  padding-top: 10px;
+}
+
+.MessagesRow {
+  position: relative;
+  display: block;
+  padding: 10px;
+  transition: .3s;
+}
+
+.MessagesRow:hover {
+  border-left: 5px solid #ddd;
+}
+
+.MessagesRow:first-child {
+  cursor: default;
+}
+
+.MessagesRow:first-child:hover,
+.MessagesRow:last-child:hover {
+  border-left: none;
+}
+
+.MessagesRow.unseen {
+  background-color: #f5f5f5;
+}
+
+.MessagesRow.nopadding {
+  padding: 0;
+}
+
+.MessagesRow.table {
+  margin: 0;
+}
+
+.MessagesRow .title {
+  color: #607D8B;
+  margin: 0;
+}
+
+.MessagesRow .icon {
+  position: absolute;
+  right: 10px; bottom: 6px;
+  color: #607d8b;
+}
+
+.MessagesRow .icon .link {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.MessagesRow .icon .fa {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.MessagesRow .img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.MessagesRow .table-cell {
+  vertical-align: top;
+}
+
+.MessagesRow .table-cell .name {
+  display: inline-block;
+  color: #555;
+  margin-right: 5px;
+}
+
+.MessagesRow .table-cell .small {
+  color: #607D8B;;
+  font-size: 12px;
+}
+
+.MessagesRow .table-cell .metaAction .small {
+  margin-right: 15px;
+}
+
+.MessagesRow .table-cell .metaAction a {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.MessagesRow .table-cell .metaAction .accept {
+  background-color: #44d775;
+}
+
+.MessagesRow .table-cell .metaAction .ignore {
+  background-color: #c0c9d0;
+}
+
+.MessagesRow .table-cell .metaAction .fa {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.MessagesRow .checkAll {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #44d775;
+}

@@ -1,0 +1,75 @@
+.FollowFeed {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.FollowFeedRow {
+  position: relative;
+  display: block;
+  padding: 10px;
+  margin: 0;
+}
+
+.FollowFeed .bottomline {
+  margin-bottom: 0px;
+}
+
+.FollowFeedRow .title {
+  color: #607D8B;
+  margin: 0;
+}
+
+.FollowFeedRow .icon {
+  position: absolute;
+  right: 10px; bottom: 6px;
+  color: #607d8b;
+}
+
+.FollowFeedRow .img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.FollowFeedRow .table-cell {
+  vertical-align: top;
+}
+
+.FollowFeedRow .table-cell a {
+  display: inline-block;
+  color: #555;
+  margin-right: 5px;
+}
+
+.FollowFeedRow .table-cell .small {
+  color: #607D8B;;
+  font-size: 12px;
+}
+
+.FollowFeedRow .table-cell .metaAction .small {
+  margin-right: 15px;
+}
+
+.FollowFeedRow .table-cell .metaAction a {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.FollowFeedRow .table-cell .metaAction .accept {
+  background-color: #44d775;
+}
+
+.FollowFeedRow .table-cell .metaAction .ignore {
+  background-color: #c0c9d0;
+}
+
+.FollowFeedRow .table-cell .metaAction .fa {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+}
